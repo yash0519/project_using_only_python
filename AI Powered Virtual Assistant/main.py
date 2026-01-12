@@ -1,7 +1,7 @@
 
 from openai import OpenAI
 import os
-OpenAI.api_key = os.getenv("OPENAI_API_KEY")  # safe, no hardcoded key
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")  
 
 key=""
 
